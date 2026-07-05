@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Canvas</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Welcome to Canvas</string>
+    <string name="onboarding_subtitle">Multi-window multitasking for any Android device</string>
+    <string name="step_install_shizuku">Install Shizuku</string>
+    <string name="step_install_shizuku_desc">Canvas uses Shizuku for advanced window management. Install it from the Play Store.</string>
+    <string name="step_start_shizuku">Start Shizuku Service</string>
+    <string name="step_start_shizuku_desc">Enable Wireless Debugging in Developer Options, then pair with Shizuku.</string>
+    <string name="step_grant_permission">Grant Permission</string>
+    <string name="step_grant_permission_desc">Allow Canvas to use Shizuku for window management.</string>
+    <string name="step_enable_freeform">Enable Freeform Windows</string>
+    <string name="step_enable_freeform_desc">One-time setup to unlock freeform window mode on your device.</string>
+    <string name="btn_install_shizuku">Install Shizuku</string>
+    <string name="btn_open_shizuku">Open Shizuku</string>
+    <string name="btn_grant_permission">Grant Permission</string>
+    <string name="btn_enable_freeform">Enable Freeform</string>
+    <string name="btn_continue">Continue</string>
+    <string name="btn_get_started">Get Started</string>
+
+    <!-- Status -->
+    <string name="status_connected">Shizuku connected</string>
+    <string name="status_not_installed">Shizuku not installed</string>
+    <string name="status_not_running">Shizuku service not running</string>
+    <string name="status_permission_needed">Permission needed</string>
+
+    <!-- App Picker -->
+    <string name="picker_title">Choose Apps</string>
+    <string name="picker_subtitle">Select 2–3 apps to launch together</string>
+    <string name="picker_search_hint">Search apps…</string>
+    <string name="picker_selected">%d selected</string>
+    <string name="picker_launch">Launch</string>
+    <string name="picker_min_apps">Select at least 2 apps</string>
+    <string name="picker_max_apps">Maximum 3 apps</string>
+
+    <!-- Home -->
+    <string name="home_title">Canvas</string>
+    <string name="home_new_session">New Session</string>
+    <string name="home_saved_groups">Saved Groups</string>
+    <string name="home_no_groups">No saved groups yet.\nLaunch a session and save it for quick access.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_shizuku_status">Shizuku Status</string>
+    <string name="settings_freeform_enabled">Freeform Windows</string>
+    <string name="settings_re_onboard">Re-run Setup</string>
+    <string name="settings_about">About Canvas</string>
+    <string name="settings_faq">Help \u0026 FAQ</string>
+
+    <!-- Errors -->
+    <string name="error_shizuku_disconnected">Shizuku connection lost. Tap to reconnect.</string>
+    <string name="error_app_not_resizable">This app doesn\'t support windowed mode.</string>
+    <string name="error_unsupported_version">This Android version is not yet supported.</string>
+    <string name="error_launch_failed">Failed to launch app. Please try again.</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_dock">Canvas Dock</string>
+    <string name="notification_dock_active">Canvas dock is active</string>
+</resources>
