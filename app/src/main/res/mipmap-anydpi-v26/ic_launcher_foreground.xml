@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Foreground icon: Abstract "canvas" with overlapping windows -->
+    <!-- Background safe zone: 18dp padding on each side (72dp usable) -->
+
+    <!-- Window 1 (left, slightly behind) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.6"
+        android:pathData="M26,32 L52,32 L52,72 L26,72 Z" />
+
+    <!-- Window 2 (right, slightly overlapping) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.8"
+        android:pathData="M42,38 L72,38 L72,76 L42,76 Z" />
+
+    <!-- Window 3 (center, foreground) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,28 L62,28 Q64,28 64,30 L64,68 Q64,70 62,70 L34,70 Q32,70 32,68 L32,30 Q32,28 34,28 Z" />
+
+    <!-- Title bar accent line -->
+    <path
+        android:fillColor="#06B6D4"
+        android:pathData="M34,30 L62,30 L62,36 L34,36 Z" />
+
+</vector>
